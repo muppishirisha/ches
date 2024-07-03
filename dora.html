@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .doraemon-container {
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: aqua;
+
+        }
+        .sky-container{
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: bisque;
+        }
+        .bird-container{
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color:khaki;
+        }
+        .baby-container{
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: plum;
+            
+        }
+        img {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .bird-container:hover img{
+            display: block;
+        }
+        .bird-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .div{
+            background-color: black;
+        }
+        .doraemon-container:hover div{
+            background-color: black;
+            display: block;
+        }
+        .doraemon-container:hover img {
+            display: block;
+        }
+        .doraemon-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-content: center; 
+        }
+        .sky-container:hover img {
+            display: block;
+        }
+        .sky-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .baby-container:hover img {
+            display: block;
+        }
+        .baby-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="doraemon-container">
+        <div class="color"></div>
+        <button class="doraemon">doraemon</button>
+        <img src="https://i.pinimg.com/736x/2b/c6/88/2bc6889427e102bc2f9bb1ab511c44ce.jpg" alt="doraemon">
+    </div>
+    <div class="sky-container">
+        <button class="sky">sky</button>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/020/655/073/small_2x/beautiful-sky-and-clouds-during-twilight-time-sunset-photo.jpg" alt="sky image">
+    </div>
+    <div class="bird-container">
+        <button class="bird">bird</button>
+        <img src="https://images.pexels.com/photos/326900/pexels-photo-326900.jpeg?cs=srgb&dl=pexels-pixabay-326900.jpg&fm=jpg" alt="bird image">
+    </div>
+    <div class="baby-container">
+        <button class="baby">baby</button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOSsPpbMqOlb4DI5DTrF9IvJHrAN7BKXK4Sw&s" alt="baby Image">
+    </div>
+</body>
+</html>
